@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{width:100%; height:100%;}
+section{width:100%; height:100%; overflow:hidden;}
+
+
+/*메인 슬라이드*/
+.main{width:100%; height:100%; position:relative; overflow:hidden; display:block;}
+.main_slideshow{box-sizing:border-box; position:relative; height:1000px; width:100%;}
+.mySlides{display:none; height:100%; width:100%;}
+.mySlides img{width:100%; height:1000px;}
+
+.prev, .next{
+	cursor:pointer; position:absolute; top:45%; width:auto; padding:16px; 
+	margin-top:-22px; color:white; font-weight:100; font-size:100px; transition:all 0.6s ease; 	
+	border-radius:0 3px 3px 0;
+}
+.prev{left:5%;}
+.next{right:5%; border-radius:3px 0 0 3px;/*왼쪽 상단, 왼쪽 하단만 둥글게(왼위,오위,오아래,왼아래*/}
+.text{
+	width:150px; height:40px; font-size:30px; border:2px solid #fff; bottom:920px;
+	margin:0 auto; text-align:center; position:relative;
+}
+.text a{display:block; width:100%; height:100%; color:#fff; font-size:15px; text-align:center; position:relative; letter-spacing:0.05em; margin-top:12.5px;}
+.text:hover{background-color:#FFF; color:#333;}
+.text a:hover{color:#333;}
+
+
+.dotgroup{position:absolute; left:50%; bottom:50px; transform:translateX(-50%);}
+.dot{
+	cursor:pointer; height:15px; width:15px; margin:0 2px; background-color:#bbb;
+	border-radius:50%; display:inline-block;/*너비를 가지며 인라인요소를 가지게 하려고*/
+	transition:background-color 0.6s ease;
+}
+.dot:hover, .active{background-color:#717171;}
+.fade{animation-name:fade; animation-duration:1.5s;}
+@keyframes fade{
+	from{opacity:0.4;}
+	to{opacity:1;}
+}
+
+/*main best*/
+.main_best{width:100%; height:1050px; background-color:#FFF; overflow:hidden;}
+.main_best>h2{color:#333; font-size:30px; text-align:center; position:relative; top:60px; font-family:"나눔바른고딕"; }
+.best_product{width:1500px; height:1000px; float:left; margin-left:210px; margin-top:80px;}
+.best_product>div{width:400px; height:400px; background-color:green; float:left; margin-top:20px; margin-left:20px;}
+
+/*best product hover*/
+.best_product>div p{width:400px; height:400px; background:rgba(255,255,255,0.6); text-align:center; opacity:0; transition:all 0.5s; cursor:pointer;}
+.best_product>div p strong{position:relative; top:170px; font-size:16px; letter-spacing:-0.05em;}
+.best_product>div p span{position:relative; top:175px; text-align:center; width:400px; color:#333; font-size:14px; letter-spacing:-0.05em;}
+.best_product>div p:hover{opacity:1;}
+.best_product a{color:#333;}
+
+.best_product>div:nth-child(1){margin-left:125px; background-image:url(../image/best_product1.jpg);}
+.best_product>div:nth-child(2){background-image:url(../image/best_product2.jpg);}
+.best_product>div:nth-child(3){background-image:url(../image/best_product3.jpg);}
+.best_product>div:nth-child(4){margin-left:125px; background-image:url(../image/best_product4.jpg);}
+.best_product>div:nth-child(5){background-image:url(../image/best_product5.jpg);}
+.best_product>div:nth-child(6){background-image:url(../image/best_product6.jpg);}
+
+
+
+
+

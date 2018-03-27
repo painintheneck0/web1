@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{width:100%; height:100%; overflow:hidden}
+.joinwrap{width:900px; height:950px; background:#fff; margin:0 auto; margin-top:100px;}
+.joinwrap>h1{font-size:30px; text-align:center; margin-bottom:50px;}
+
+.join1{width:750px;height:50px; background-color:#fff;}
+.join1>p{width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join1>input{float:left; margin-top:12.5px;}
+.join1>h5{float:left; margin-left:20px; font-size:13px; font-weight:normal; color:#999; margin-top:22.5px;}
+
+.join2{width:750px; height:50px; background-color:#fff;}
+.join2>p{width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join2>input{float:left; margin-top:12.5px;}
+.join2>h5{float:left; margin-left:20px; font-size:13px; font-weight:normal; color:#999; margin-top:22.5px;}
+
+.join3{width:750px; height:50px; background-color:#fff;}
+.join3>p{width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join3>input{float:left; margin-top:12.5px;}
+
+.join4{width:750px; height:50px; background-color:#fff;}
+.join4>p{width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join4>input{float:left; margin-top:12.5px;}
+
+.join5{width:750px; height:50px; background-color:#fff;}
+.join5>p:nth-child(1){width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join5>input{float:left; margin-top:12.5px;}
+.etc{float:left; width:20px; margin-top:20px; text-align:center; font-family:"나눔바른고딕"; color:#999;}
+
+.join6{width:750px; height:50px; background-color:#fff;}
+.join6>p:nth-child(1){width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join6>input{float:left; margin-top:12.5px;}
+.join6>input:nth-child(4){margin-right:10px;}
+.join6>p:nth-child(3){float:left; width:30px; margin-top:20px; text-align:center; font-family:"나눔바른고딕"; font-size:16px; color:#999;}
+.join6>select{float:left; margin-top:17px; margin-left:5px;}
+
+.join7{width:750px; height:50px; background-color:#fff;}
+.join7>p:nth-child(1){width:150px; float:left; margin-top:20px; font-size:14px; color:#666;}
+.join7>input{float:left; margin-right:5px; margin-top:20px;}
+.join7>p:nth-child(3){float:left; font-size:13px; margin-top:20px; color:#666;}
+.join7>h5{font-size:13px; float:left; margin-left:10px; font-weight:normal; color:#999; margin-top:20px;}
+
+.join8{width:900px; height:350px; background-color:#fff; margin-top:30px;}
+.join8>p:nth-child(1){font-size:14px; color:#333; font-weight:500; letter-spacing:-0.05em; font-family:"나눔고딕"}
+.join8>p:nth-child(2){width:900px; height:100px; font-size:13px; color:#666; background-color:#FFF; overflow:auto; margin-top:10px;}
+.join8>p:nth-child(3){font-size:14px; color:#333; font-weight:500; margin-top:20px; letter-spacing:-0.05em; font-family:"나눔고딕"}
+.join8>p:nth-child(4){width:900px; height:100px; font-size:13px; color:#666; background-color:#FFF; overflow:auto; margin-top:10px;}
+.join8>h5{font-size:13px; float:left; font-weight:normal; color:#666; margin-top:20px; margin-right:15px;}
+.join8>input{float:left; margin-right:5px; margin-top:20px;}
+.join8>p:nth-child(7){float:left; font-size:12px; color:#666; margin-top:17.5px; margin-right:10px;}
+.join8>p:nth-child(9){float:left; font-size:12px; color:#666; margin-top:17.5px;}
+
+.btngroup{width:285px; height:42px; margin:0 auto; margin-top:15px;}
+.btngroup>a>.joinok{width:140px; height:40px; background-color:#ccc; font-size:15px; text-align:center; border:none; font-weight:600; color:#333; transition:all 0.4s; cursor:pointer;}
+.btngroup>a>.joinok:hover{background-color:#fff; color:#666;}
+.btngroup>a>.joinno{width:140px; height:40px; background-color:#EAEAEA; font-size:15px; text-align:center; border:none; font-weight:600; color:#555; transition:all 0.4s; cursor:pointer;}
+.btngroup>a>.joinno:hover{background-color:#fff; color:#666;}
+
+
+/*.join{margin:0 auto; margin-top:50px;}
+.join p{width:150px;float:left; margin-top:20px; font-size:14px;}
+.join input{float:left; margin-top:10px}
+.join h5{float:left; font-weight:normal; font-size:13px; margin-left:10px; margin-top:20px;}*/
